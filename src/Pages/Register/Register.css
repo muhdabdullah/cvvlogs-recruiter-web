@@ -1,0 +1,95 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.back-img-reg {
+  background-image: url("../../Assests/register/register-back.jpg");
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back-img-regs {
+  background-image: url("../../Assests/register/remob.jpg");
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-reg {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.reg-head {
+  font-weight: bold;
+  color: var(--purple);
+  text-align: center;
+}
+
+#input-reg,
+.input-reg {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: var(--light-grey);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.label-reg {
+  color: var(--grey);
+}
+
+.recr-text-reg {
+  text-align: center;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.term-priv-reg {
+  color: var(--purple);
+  text-decoration: underline;
+}
+
+.reg-btn-main {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+}
+
+.reg-btn-main:hover {
+  background-color: #865ddd !important;
+}
+
+.reg-btn-main:focus {
+  background-color: #865ddd !important;
+}
+
+.reg-btn-main:active {
+  background-color: #865ddd !important;
+}
+.p-dropdown {
+  width: 100%;
+}
+.p-dropdown .p-dropdown-trigger {
+  display: none;
+}
+.p-dropdown .p-dropdown-label.p-inputtext {
+  padding: 6px;
+}
+.intl-tel-input {
+  width: 100%;
+  margin-top: 8px;
+}

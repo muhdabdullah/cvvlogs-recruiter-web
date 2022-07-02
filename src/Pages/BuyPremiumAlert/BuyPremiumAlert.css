@@ -1,0 +1,45 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.modal-head-recr-premium {
+  margin-left: 50px;
+  color: #ffb44a;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.modal-para-recr-prem {
+  text-align: center;
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.premium-sub-rcer {
+  color: #ffb44a;
+}
+
+.btn-of-premium-rece {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+  margin-top: 25px;
+}
+
+.btn-of-premium-rece :hover {
+  background-color: #865ddd !important;
+}
+
+.btn-of-premium-rece :focus {
+  background-color: #865ddd !important;
+}
+
+.btn-of-premium-rece :active {
+  background-color: #865ddd !important;
+}

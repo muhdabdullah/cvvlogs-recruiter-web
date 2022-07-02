@@ -1,0 +1,15 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.report-user-head-rep-modal {
+    color: #865ddd;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150px;
+}

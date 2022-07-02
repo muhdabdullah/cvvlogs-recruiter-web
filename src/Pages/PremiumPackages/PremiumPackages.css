@@ -1,0 +1,147 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.head-pack-main-premium {
+  text-align: center;
+  font-weight: bold;
+  color: var(--grey);
+}
+.cash-stan-main {
+  color: #865ddd;
+  font-weight: bold;
+}
+.text-ofo-pack-prem {
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.num-ofo-pack-prem {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.price-of-premium-pack {
+  text-align: center;
+  font-weight: bold;
+  color: var(--purple);
+}
+.small-month {
+  font-size: 20px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.month-of-premium {
+  font-size: 14px;
+  color: var(--light-grey);
+}
+
+.style-4 del {
+  /* color: red; */
+  text-decoration: none;
+  position: relative;
+  /* font-size: 40px;
+  font-weight: 100; */
+}
+.style-4 del:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  border-top: 3px solid red;
+  height: 8px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  transform: rotate(-11deg);
+}
+.style-4 del:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  border-top: 3px solid red;
+  height: 8px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  transform: rotate(11deg);
+}
+.main-package-box {
+  /* min-height: 500px; */
+}
+.package-types .type {
+  min-height: 150px;
+  border-radius: 12px;
+  padding: 10px;
+}
+.package-types .type.premium {
+  background-color: #865ddd;
+  color: var(--white);
+}
+.package-types .type.basic {
+  border: 2px solid #f7a02e;
+  color: var(--light-grey);
+}
+.package-types .type i {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-types .type.basic i {
+  color: #f7a02e;
+  background-color: #f7ead8;
+}
+.package-types .type.premium i {
+  color: #865ddd;
+  background-color: #e2d8f7;
+}
+.package-types .type h4 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.package-types .type h1 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 10px;
+  /* word-break: break-word; */
+}
+.package-types .type h1 span {
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.features .feature p {
+  color: var(--grey);
+  margin: 0;
+}
+.features .checks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features .checks i {
+  font-size: 20px;
+  color: var(--light-grey);
+}
+.features .checks i.checked {
+  color: #865ddd;
+}
+.head h1 {
+  color: var(--light-grey);
+  font-weight: 900;
+}
+.head p {
+  color: var(--light-grey);
+}

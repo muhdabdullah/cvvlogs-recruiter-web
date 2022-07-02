@@ -1,0 +1,51 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.edit-prof-text {
+  font-weight: bold;
+  color: var(--grey);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.head-over-flow-app-prof-recr {
+  /* overflow: auto; */
+  /* height: 150px; */
+}
+
+.loceditprof-appl-prof {
+  color: var(--grey);
+  /* font-weight: bold; */
+  font-size: 14px;
+}
+
+.cv-video-head-rcvr {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.para-head-vid-revr {
+  color: var(--grey);
+}
+
+.main-border-rad-editprof{
+  border-radius: 15px;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-color-key {
+  color: #707070;
+  color: var(--grey);
+  background-color: #f9f6ff;
+  background-color: var(--light-purple);
+  font-weight: 700;
+}

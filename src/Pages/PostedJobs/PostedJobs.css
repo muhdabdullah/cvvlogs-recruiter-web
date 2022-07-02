@@ -1,0 +1,181 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+  --primary-color: #865ddd;
+  --list-color: #011f95;
+  --box-heading-color: #909090;
+  --back-button-color: #c8c8c8;
+  --ad-banner-color: #d8e8ff;
+  --ad-banner-text-color: #c5d2e5;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.text-color {
+  color: var(--grey);
+  font-weight: bold;
+}
+.text-disabled{
+    color: var(--light-grey);
+}
+
+.text-disabled-02{
+    color: var(--grey);
+}
+
+body {
+  height: 100%;
+  background-color: #fff;
+}
+.search-top {
+  padding-top: 50px;
+}
+.info-tags span {
+  display: inline-block;
+  margin: 00px 10px;
+  font-size: 12px;
+}
+.info-tags {
+  margin: 10px 0px;
+}
+.job_result p {
+  font-size: 12px;
+  margin: 0 !important;
+}
+.end {
+  justify-content: flex-end;
+  display: flex;
+}
+.start {
+  justify-content: flex-start;
+}
+.job_result ul li {
+  font-size: 12px;
+}
+.search-top .row .col-md-2 a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #7a7a7a;
+  font-weight: bold;
+}
+.search-top .row .col-md-9 h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.search-top .row .col-md-9 h6 {
+  color: var(--list-color);
+  font-weight: 600;
+}
+.padder {
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.select-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.select-area button {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  height: 40px;
+  color: var(--list-color);
+  font-weight: bold;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.select-area select {
+  color: var(--list-color);
+  background: #fff;
+  padding: 5px 10px;
+  width: 100%;
+  font-weight: 500;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../Assests/posted-jobs/down.png);
+  background-size: 20px;
+  background-position: 95%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  height: 44px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.job_result {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.001);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.job_result:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.info-tags {
+  margin-bottom: 15px;
+}
+.place-ad {
+  height: 700px;
+  max-width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1), 0px -3px 5px rgba(0, 0, 0, 0.1);
+  background: var(--ad-banner-color);
+}
+.place-ad h4 {
+  transform: rotate(270deg);
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 26px;
+}
+
+.posted-today-text-rexr-o1{
+    text-align: right;
+    color: var(--grey);
+}
+
+ul {
+  margin: 0px;
+  margin-left: 20px;
+}
+@media (max-width: 991px) and (min-width: 767px) {
+  .select-area select {
+    background-image: none;
+    appearance: auto;
+  }
+}
+@media (max-width: 767px) {
+  .container-bottom {
+    padding-left: 15px;
+  }
+}
+
+.posted-jobs-rexr-head {
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.posted-jobs-rexr-para{
+    color: var(--blue);
+  font-weight: bold;
+}
+
+.link-tag-home:hover {
+  text-decoration: none !important;
+}

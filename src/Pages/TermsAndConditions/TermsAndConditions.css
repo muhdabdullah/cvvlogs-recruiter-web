@@ -1,0 +1,23 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.terms-and-cond-head {
+  color: var(--purple);
+  text-align: left;
+  font-weight: bold;
+}
+
+.para-terns-and-cond {
+  color: var(--grey);
+}
+
+.term-con-heading {
+  font-weight: 800;
+  text-transform: uppercase;
+}

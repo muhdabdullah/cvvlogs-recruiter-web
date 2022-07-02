@@ -1,0 +1,57 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.card-main-app-can {
+  /* background-color: aqua; */
+  height: 170px;
+  width: 1200px;
+ overflow-y: auto;
+}
+
+.profile-card-user-one {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-color: red; */
+  border-radius: 10px;
+}
+
+.can-name-app-can {
+  color: var(--grey);
+  margin-top: 10px !important;
+}
+
+.can-loc-app-can {
+  color: var(--light-grey);
+}
+
+.skill-app-cen {
+  color: var(--grey);
+}
+
+.user-desc-prof-card {
+  color: var(--light-grey);
+  font-size: 12px;
+}
+
+.img-comp-app-can {
+  margin-top: 10px !important;
+}
+
+
+.card-block {
+  min-height: 200px;
+}
+
+.main-row-app-cand{
+  overflow: auto;
+  /* background-color: #865ddd; */
+}

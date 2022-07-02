@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3134" height="663" viewBox="0 0 3134 663">
+  <defs>
+    <filter id="Rectangle_188" x="0" y="0" width="3134" height="663" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Mobile_app_box" x="0" y="0" width="3134" height="663" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_188)">
+        <rect id="Rectangle_188-2" data-name="Rectangle 188" width="3104" height="633" rx="43" transform="translate(0 0)" fill="#5e4698"/>
+      </g>
+    </clipPath>
+    <filter id="Path_63" x="-176.24" y="-71.161" width="3479.706" height="1129.633" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.031"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_98" data-name="Group 98" transform="translate(15458 11)">
+    <g transform="matrix(1, 0, 0, 1, -15458, -11)" filter="url(#Mobile_app_box)">
+      <rect id="Mobile_app_box-2" data-name="Mobile app box" width="3104" height="633" rx="34" transform="translate(13 13)" fill="#5e4698"/>
+    </g>
+    <g id="Box_pattern" data-name="Box pattern" transform="translate(-15445 2)" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, -13, -13)" filter="url(#Path_63)">
+        <path id="Path_63-2" data-name="Path 63" d="M0,722.1S552.738,440.845,1131.668,436.873s562.516,273.6,1141.544,269.627S3359.555,421.587,3359.555,421.587L3362.647,0,5.127,23.036Z" transform="matrix(-0.99, -0.1, 0.1, -0.99, 3197.99, 1038.47)" fill="#6d55a7"/>
+      </g>
+    </g>
+    <text id="What_We_Offer" data-name="What We Offer" transform="translate(-15314 199)" fill="#fff" font-size="113" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">What We Offer</tspan></text>
+    <text id="Using_our_proprietary_video_resume_format_and_superior_analytics_we_will_help_you_find_the_perfect_match._From_caretakers_to_professionals_you_can_rely_on_our_advanced_technology_to_help_you_Connect_with_employers_and_businesses_in_the_shortest_possible_" data-name="Using our proprietary video resume format and superior analytics, we will help you find the perfect match. From caretakers to professionals, you can rely on our advanced technology to help you Connect with employers and businesses in the shortest possible " transform="translate(-15314 262)" fill="#fff" font-size="70" font-family="SegoeUI, Segoe UI"><tspan x="0" y="76">Using our proprietary video resume format and superior analytics, we will help you find the </tspan><tspan x="0" y="170">perfect match. From caretakers to professionals, you can rely on our advanced technology to </tspan><tspan x="0" y="264">help you Connect with employers and businesses in the shortest possible time.</tspan></text>
+  </g>
+</svg>

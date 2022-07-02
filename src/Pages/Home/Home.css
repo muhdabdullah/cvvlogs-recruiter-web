@@ -1,0 +1,63 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.home-back-img {
+  background-image: url("../../Assests/dashboard_banner.jpg");
+  min-height: 390px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  position: relative;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.white-hpme {
+  color: #fff;
+}
+
+.home-maein-back-search {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.btn-main-home-recr {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+}
+
+.btn-main-home-recr:hover {
+  background-color: #865ddd !important;
+}
+
+.btn-main-home-recr:focus {
+  background-color: #865ddd !important;
+}
+
+.btn-main-home-recr:active {
+  background-color: #865ddd !important;
+}
+
+.link-tag-home:hover {
+  text-decoration: none !important;
+}
+
+.home-hover-effect:hover {
+  background: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,23 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.about-us-image {
+  background-image: url("../../Assests/about-us/back-img.jpg");
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.about-head {
+  color: var(--purple);
+  font-weight: bold;
+}

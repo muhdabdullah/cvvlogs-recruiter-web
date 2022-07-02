@@ -1,0 +1,69 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.contact-head-recr {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.para-recr {
+  color: var(--grey);
+}
+
+.label-of-contact-recr {
+  color: var(--grey);
+}
+
+.text-area-contact-recr {
+  min-height: 200px;
+}
+
+.input-contact-form {
+  color: var(--light-grey) !important;
+}
+
+.sub-con-btn {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.sub-con-btn :hover {
+  background-color: #865ddd !important;
+}
+
+.sub-con-btn :focus {
+  background-color: #865ddd !important;
+}
+
+.sub-con-btn :active {
+  background-color: #865ddd !important;
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c8c8c8;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c8c8c8;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c8c8c8;
+}
+/* .btn-primary{
+  background-color: var(--purple);
+} */

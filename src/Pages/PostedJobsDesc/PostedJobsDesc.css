@@ -1,0 +1,41 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.app-cand-head {
+  color: var(--grey);
+}
+
+.light-color-app-cadidate{
+    color: var(--light-grey);
+}
+
+.dark-color-app-cand{
+    color: var(--grey);
+}
+
+.button-of-app-cand {
+    color: #fff !important;
+    background-color: #FFB44A !important;
+    font-weight: bold !important;
+    border: 0;
+    margin-top: 25px;
+  }
+  
+  .button-of-app-cand :hover {
+    background-color: #FFB44A !important;
+  }
+  
+  .button-of-app-cand :focus {
+    background-color: #FFB44A !important;
+  }
+  
+  .button-of-app-cand :active {
+    background-color: #FFB44A !important;
+  }

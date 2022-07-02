@@ -1,0 +1,50 @@
+:root {
+    --purple: #865ddd;
+    --yellow: #ffb44a;
+    --grey: #707070;
+    --light-grey: #c8c8c8;
+    --light-purple: #f9f6ff;
+    --white: #ffffff;
+  }
+
+.modal-head-recr-otp{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--purple);
+    margin-left: 110px;
+}
+
+.weight-of-otp{
+    font-weight: bold;
+    color: var(--grey);
+}
+
+.here-to-resend-otp{
+    color: var(--grey);
+    font-size: 14px;
+}
+
+.to-send-otp{
+    color: #865ddd;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.otp-modal-btn {
+    color: #fff !important;
+    background-color: #865ddd !important;
+    font-weight: bold !important;
+    border: 0;
+  }
+  
+  .otp-modal-btn :hover {
+    background-color: #865ddd !important;
+  }
+  
+  .otp-modal-btn :focus {
+    background-color: #865ddd !important;
+  }
+  
+  .otp-modal-btn :active {
+    background-color: #865ddd !important;
+  }

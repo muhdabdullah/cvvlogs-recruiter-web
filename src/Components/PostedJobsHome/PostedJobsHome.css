@@ -1,0 +1,35 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.technsym-text-comp {
+  font-size: 12px;
+  color: var(--light-grey);
+}
+
+.para-loc-text{
+    font-size: 14px;
+    color: var(--grey);
+}
+
+.head-color-of-posr{
+    color: var(--grey);
+}
+
+.view-more-pofts-jkbs{
+    text-align: right;
+    color: var(--purple);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pited-job-main{
+    color: var(--grey);
+    font-weight: bold;
+}

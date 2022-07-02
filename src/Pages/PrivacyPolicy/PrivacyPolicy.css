@@ -1,0 +1,18 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.privacy-policy-head {
+  color: var(--purple);
+  text-align: left;
+  font-weight: bold;
+}
+
+.privacy-policy-text {
+  color: var(--grey);
+}

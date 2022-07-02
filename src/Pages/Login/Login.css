@@ -1,0 +1,109 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.back-img-login {
+  background-image: url("../../Assests/login/login-back.jpg");
+  min-height: 752px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 700px){
+  .back-img-login {
+    background-image: url("../../Assests/login/login-back.jpg");
+    min-height: 500px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.main-login-form {
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.main-login-form{
+  margin-top: 50px;
+}
+
+.recr-login-head{
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.recr-login-input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: black;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.recr-login-label{
+  color: var(--grey);
+}
+
+.forget-pass-login{
+  font-size: 12px;
+  text-align: right;
+  color: var(--purple);
+}
+
+.login-recr-btn {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+}
+
+.login-recr-btn:hover {
+  background-color: #865ddd !important;
+}
+
+.login-recr-btn:focus {
+  background-color: #865ddd !important;
+}
+
+.login-recr-btn:active {
+  background-color: #865ddd !important;
+}
+
+.horizon-rule-reg{
+  border: 1px solid var(--light-grey);
+}
+
+.icon-radius-reg{
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.dont-account-login{
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+.reg-here-login{
+  color: #865ddd;
+  font-weight: bold;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+  border-color: none !important;
+  color: black !important;
+}

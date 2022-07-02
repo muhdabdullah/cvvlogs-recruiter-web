@@ -1,0 +1,46 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+  --primary-color: #865ddd;
+  --list-color: #011f95;
+  --box-heading-color: #909090;
+  --back-button-color: #c8c8c8;
+  --ad-banner-color: #d8e8ff;
+  --ad-banner-text-color: #c5d2e5;
+  --red: #e22929;
+}
+
+.closed-color-of-jobs {
+  text-align: right;
+  color: var(--red);
+  font-size: 20px !important;
+}
+
+.default-drop-btn {
+  color: #011f95 !important;
+  background-color: #fff !important;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+}
+
+.default-drop-btn :hover {
+  background-color: #fff !important;
+}
+
+.default-drop-btn :focus {
+  background-color: #fff !important;
+}
+
+.default-drop-btn :active {
+  background-color: #fff !important;
+}

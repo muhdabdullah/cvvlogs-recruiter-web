@@ -1,0 +1,29 @@
+:root {
+    --purple: #865ddd;
+    --yellow: #ffb44a;
+    --grey: #707070;
+    --light-grey: #c8c8c8;
+    --blue: #011f95;
+  }
+  .css-2b097c-container{
+    width: 81% !important;
+  }
+  .css-yk16xz-control{
+    border-left: none !important;
+  }
+  /* .css-1wa3eu0-placeholder:after{
+    font-size: 1rem;
+    content: 'Skills';
+  } */
+  .css-1wa3eu0-placeholder { 
+    visibility: hidden; 
+    position: relative; 
+} 
+.css-1wa3eu0-placeholder:after { 
+    visibility: visible; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    content: "Skills"; 
+    color: rgb(200, 200, 200);
+} 

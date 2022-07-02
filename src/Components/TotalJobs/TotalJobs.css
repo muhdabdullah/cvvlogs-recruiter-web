@@ -1,0 +1,22 @@
+.main-total-jobs {
+  background-color: #fff;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.main-div-of-jobs {
+  position: absolute;
+  top: 380px;
+}
+
+.main-jobs-section {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.head-of-jobs-recr {
+  font-size: 20px;
+}

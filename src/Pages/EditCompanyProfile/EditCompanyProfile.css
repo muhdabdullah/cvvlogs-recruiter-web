@@ -1,0 +1,63 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.edit-prof-head-main {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.replace-photo-txt-edit-prof {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.label-color-edit-comp-prof {
+  color: var(--grey);
+}
+
+.btn-of-edit-comp-prof {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+  margin-top: 25px;
+}
+
+.btn-of-edit-comp-prof :hover {
+  background-color: #865ddd !important;
+}
+
+.btn-of-edit-comp-prof :focus {
+  background-color: #865ddd !important;
+}
+
+.btn-of-edit-comp-prof :active {
+  background-color: #865ddd !important;
+}
+
+.text-area-des-edit-prof {
+  min-height: 150px !important;
+}
+.inputs {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: #00f;
+  z-index: 999;
+  position: absolute;
+}
+.intl-tel-input {
+  width: 100%;
+  margin-top: 8px;
+}
+.error-message {
+  color: red;
+}

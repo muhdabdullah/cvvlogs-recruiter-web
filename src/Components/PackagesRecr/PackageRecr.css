@@ -1,0 +1,37 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.head-pack-main-premium {
+  text-align: center;
+  font-weight: bold;
+  color: var(--grey);
+}
+
+.text-ofo-pack-prem {
+  font-size: 12px !important;
+  color: var(--grey);
+}
+
+.num-ofo-pack-prem {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.price-of-premium-pack {
+  text-align: center;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.month-of-premium {
+  font-size: 14px;
+  color: var(--light-grey);
+}

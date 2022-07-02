@@ -1,0 +1,52 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.create-job-recr-head {
+  color: var(--purple);
+  text-align: center;
+  font-weight: bold;
+}
+
+.create-job-main-recr {
+  border-radius: 10px;
+}
+
+.label-create-job-recr {
+  color: var(--grey);
+}
+
+.salary-range-recr {
+  color: var(--grey);
+  font-weight: bold;
+}
+
+.recr-craete-job-select {
+  color: var(--light-grey) !important;
+}
+
+.create-job-btn-recr {
+  color: #fff !important;
+  background-color: #865ddd !important;
+  font-weight: bold !important;
+  border: 0;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.create-job-btn-recr :hover {
+  background-color: #865ddd !important;
+}
+
+.create-job-btn-recr :focus {
+  background-color: #865ddd !important;
+}
+
+.create-job-btn-recr :active {
+  background-color: #865ddd !important;
+}

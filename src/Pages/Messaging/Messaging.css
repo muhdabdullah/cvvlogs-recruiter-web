@@ -1,0 +1,164 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue: #011f95;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box,
+.chat-box {
+  height: 660px;
+  overflow-y: scroll;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* --------------------------------------------- */
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon {
+  left: 0px;
+}
+.right-addon .glyphicon {
+  right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+  padding-left: 30px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+
+/* ---------------------------------------------------- */
+
+.user-namecoloe-blue {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.skill-color-messaing {
+  color: var(--grey);
+}
+
+.message-text-user-color {
+  background-color: #865ddd !important;
+  width: fit-content !important;
+  max-width: 300px;
+}
+
+.messaging-head-main {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.message-sender-user-color {
+  background-color: #c8c8c8;
+  width: fit-content !important;
+}
+
+.tezt-coodkn {
+  color: #fff !important;
+}
+
+.trans {
+  transform: translate(-82px, 35px) !important;
+}
+
+.messages-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.messages-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.messages-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.messages-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.chat-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mainmain {
+  display: flex;
+  justify-content: flex-end;
+}
+.styles_scrollable-div__prSCv {
+  height: 555px !important;
+  padding: 10px !important;
+}
+.styles_scrollable-div__prSCv::-webkit-scrollbar {
+  width: 10px;
+}
+
+.styles_scrollable-div__prSCv::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.styles_scrollable-div__prSCv::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.styles_scrollable-div__prSCv::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.messages-box::-webkit-scrollbar {
+  width: 10px;
+  height: 8px !important;
+}
+
+.messages-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.messages-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.messages-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.image-upload > input {
+  display: none;
+}

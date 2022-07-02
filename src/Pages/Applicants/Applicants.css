@@ -1,0 +1,71 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #865ddd;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+  --blue:#011F95;
+}
+
+.applicants-head-recr {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.applicants-para-recr{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.recr-user-info-main{
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user-name-recr{
+    font-size: 25px;
+    color: var(--grey);
+    font-weight: bold;
+    margin-top: 25px !important;
+}
+
+.user-loc-recr{
+    color: var(--light-grey);
+}
+
+.key-skills-recr-applicants{
+    font-size: 20px;
+    color: var(--grey);
+    font-weight: bold;
+    margin-top: 10px !important;
+}
+
+.userskills-appli{
+    font-size: 14px;
+    color: var(--light-grey);
+}
+
+.posted-date-appli{
+    color: var(--light-grey);
+    margin-top: 15px !important;
+}
+
+.overflow-applicants{
+    height: 700px;
+    overflow: auto;
+}
+
+.footer-applicant{
+    margin-top: 100px !important;
+}
+
+.link-tag-home:hover {
+    text-decoration: none !important;
+  }
+
+  .home-hover-effect:hover{
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
